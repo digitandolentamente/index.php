@@ -1,2 +1,6 @@
 # index.php
-pagina principal
+<?
+include('../controller/Netflix/ControllerFilme.php');
+
+Netflix\ControllerFilme::Exibir();
+>
